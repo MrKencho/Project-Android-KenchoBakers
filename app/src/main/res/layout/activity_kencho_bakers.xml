@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_kencho_bakers"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ef000000"
+    tools:context="com.mrkencho.kenchobakers.KenchoBakers"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THE KENCHO BAKERS"
+        android:textColor="#fa6e03"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_gravity="fill_horizontal"/>
+    <ImageView
+        android:src="@drawable/bakers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageView"
+        android:contentDescription="@string/app_name"/>
+    <TextView
+        android:padding="20dp"
+        android:textColor="#2183b7"
+        android:textSize="20sp"
+        android:text="Open from 09:00 till 21:00 \n\n #101,Baker's Street,\n  PabloDeNarudo,\n  Haryan\n\nContact:1256494564"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
